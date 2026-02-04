@@ -1,8 +1,8 @@
 :root {
   color-scheme: light;
   font-family: 'Manrope', sans-serif;
-  --burnt: #bf5700;
-  --burnt-dark: #8a3e00;
+  --burnt: #d67d00;
+  --burnt-dark: #a85f00;
   --cream: #f7efe4;
   --charcoal: #2b2624;
   --ink: #1f1b19;
@@ -15,7 +15,7 @@
 
 body {
   margin: 0;
-  background: radial-gradient(circle at top, #fff5ea 0%, #f1dfc9 45%, #e6c8a8 100%);
+  background: radial-gradient(circle at top, #fff7ea 0%, #f3e0c6 45%, #e7c79f 100%);
   color: var(--ink);
 }
 
@@ -27,7 +27,7 @@ body {
 
 .hero {
   padding: 3.5rem 6vw 4.5rem;
-  background: linear-gradient(130deg, #fff1e0 0%, #f1d1b0 45%, #dba77b 100%);
+  background: linear-gradient(130deg, #fff2df 0%, #f2d2a9 45%, #e1a86f 100%);
   position: relative;
   overflow: hidden;
 }
@@ -38,7 +38,7 @@ body {
   inset: -18% 38% auto auto;
   width: 420px;
   height: 420px;
-  background: radial-gradient(circle, rgba(191, 87, 0, 0.45), transparent 70%);
+  background: radial-gradient(circle, rgba(214, 125, 0, 0.45), transparent 70%);
   filter: blur(2px);
 }
 
@@ -146,6 +146,61 @@ h1 {
   box-shadow: 0 16px 40px rgba(30, 15, 5, 0.14);
 }
 
+.gallery {
+  padding: 3.5rem 6vw 4.5rem;
+  background: radial-gradient(circle at top, #fff6ea 0%, #f4e1c8 45%, #e9c8a0 100%);
+}
+
+.gallery-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+}
+
+.gallery-block {
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 24px;
+  padding: 1.6rem;
+  box-shadow: 0 14px 32px rgba(30, 15, 5, 0.12);
+}
+
+.gallery-block-header {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 1.2rem;
+  border-bottom: 1px solid rgba(179, 120, 60, 0.2);
+  padding-bottom: 0.8rem;
+}
+
+.gallery-block-header h3 {
+  margin: 0;
+  font-family: 'Fraunces', serif;
+  font-size: 1.35rem;
+}
+
+.gallery-block-header span {
+  color: #6b5b52;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 16px;
+  border: 1px solid rgba(179, 120, 60, 0.2);
+  background: #fff;
+}
+
 .banner {
   margin: 1rem 6vw 4rem;
   padding: 2.5rem 3rem;
@@ -163,14 +218,14 @@ h1 {
 .status {
   padding: 1rem 1.5rem;
   border-radius: 16px;
-  background: #fff2e3;
-  border: 1px solid #efc9a3;
+  background: #fff0db;
+  border: 1px solid #edc08c;
   margin-bottom: 1.5rem;
 }
 
 .status.error {
-  background: #ffe8db;
-  border-color: #f3b07e;
+  background: #ffead3;
+  border-color: #e5a868;
 }
 
 @media (max-width: 720px) {
