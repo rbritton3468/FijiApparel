@@ -1,7 +1,7 @@
 import PricingTable from "./PriceingTable";
 import Gallery from "./Gallery";
 
-const SALE_END_DATE = "February 29, 2024";
+const SALE_END_DATE = "Thursday, February 12, 2026";
 const saleOver = false;
 
 
@@ -63,7 +63,7 @@ export default function App() {
             <p className="eyebrow">Texas Phi Gamma Delta Apparel</p>
             <h1>T-Shirts, Hats, and More</h1>
             <p className="hero-copy">
-              All items are designed exclusively for Texas Phi Gamma Delta and printed on high-quality, comfortable materials.
+              All items are designed exclusively for Texas Phi Gamma Delta and printed on high-quality, Comfort Color T-Shirts.
             </p>
             <button className="cta" onClick={() => document.getElementById('pricing_table').scrollIntoView({ behavior: 'smooth' })}>
               Shop the drop
