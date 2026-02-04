@@ -98,7 +98,7 @@ export default function App() {
      
 
       <footer className="footer">
-        <p>Fiji Apparel </p>
+        <p>Fiji Apparel • Built By Robert Britton </p>
       </footer>
     </div>
   );
