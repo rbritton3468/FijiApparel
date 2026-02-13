@@ -10,7 +10,7 @@ export default function PricingTable({ saleOver }) {
     if (saleOver) {
         return (    
             <div className="status info">
-                The sale has ended. Please check back later for new promotions!
+                The sale has ended. Please check back later!
             </div>
         );
     }
