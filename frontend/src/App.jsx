@@ -1,8 +1,8 @@
 import PricingTable from "./PriceingTable";
 import Gallery from "./Gallery";
 
-const SALE_END_DATE = "Thursday, February 12, 2026";
-const saleOver = true;
+const SALE_END_DATE = "Sunday, September 20, 2026";
+const saleOver = false;
 
 
 export default function App() {
@@ -98,7 +98,7 @@ export default function App() {
      
 
       <footer className="footer">
-        <p>Fiji Apparel • Designed by Clark Cozby • Built by Robert Britton </p>
+        <p>Fiji Apparel • Roy Jenkins • 409-673-3386 </p>
       </footer>
     </div>
   );
