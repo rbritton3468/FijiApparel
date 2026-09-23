@@ -2,7 +2,7 @@ import PricingTable from "./PriceingTable";
 import Gallery from "./Gallery";
 
 const SALE_END_DATE = "Sunday, September 20, 2026";
-const saleOver = false;
+const saleOver = true;
 
 
 export default function App() {
